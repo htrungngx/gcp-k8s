@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: todo-image
+spec:
+  selector:
+     run: todo-image
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
+  type: LoadBalancer
