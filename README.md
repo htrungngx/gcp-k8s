@@ -14,6 +14,11 @@ This is a simple demo on the usage of Google's [Cloud Build](https://cloud.googl
 4. Cloud Build notifies Google Kubernetes Engine to roll out a new deployment.
 5. Google Kubernetes Engine pulls the image from Container Registry and runs it.
 
+## Clone
+Clone the project to any directory where you do development work
+```
+git clone https://github.com/htrungngx/GCP-Devops.git
+```
 
 ### Dockerfile
 
@@ -80,8 +85,4 @@ images: [
 <img width="1191" alt="Screenshot 2023-10-24 at 23 35 42" src="https://github.com/htrungngx/GCP-Devops/assets/83159640/1bdfa8da-4956-4890-a639-ab567196c2bc">
 <img width="988" alt="Screenshot 2023-10-24 at 23 34 49" src="https://github.com/htrungngx/GCP-Devops/assets/83159640/ef2006bb-f0d7-49a1-90d1-e38bb8a0efc9">
 
-## Clone
-Clone the project to any directory where you do development work
-```
-git clone https://github.com/htrungngx/GCP-Devops.git
-```
+
